@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uslovi korišćenja</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #2563eb;
+    --border: #e5e5e5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.25rem;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.2rem; }
+  .highlight {
+    background: #eff6ff;
+    border-left: 3px solid var(--accent);
+    padding: 0.9rem 1.1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  a { color: var(--accent); }
+  .placeholder {
+    background: #fff3cd;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Uslovi korišćenja</h1>
+  <div class="updated">Poslednje ažurirano: <span class="placeholder">[DATUM]</span></div>
+
+  <p>Ovim Uslovima korišćenja regulišu se uslovi pod kojima <span class="placeholder">[IME / NAZIV PRUŽAOCA USLUGE]</span> ("mi", "nas") pruža uslugu <span class="placeholder">[NAZIV APLIKACIJE / USLUGE]</span> ("Aplikacija") klijentu ("korisnik", "vi"). Korišćenjem Aplikacije prihvatate ove uslove u celosti.</p>
+
+  <h2>1. Opis usluge</h2>
+  <p>Aplikacija predstavlja softversko rešenje za automatizaciju poslovnih procesa (izgrađeno na n8n platformi) koje, uz saglasnost korisnika, koristi Google API-je (Sheets, Drive, Calendar, Gmail i/ili druge Google usluge) radi izvršavanja unapred dogovorenih automatizovanih radnji u ime korisnika.</p>
+
+  <div class="highlight">
+    <strong>Uslov za povezivanje naloga:</strong> Povezivanje Google naloga korisnika sa Aplikacijom i bilo kakva instalacija/aktivacija integracije vrši se isključivo nakon što korisnik da izričitu i informisanu saglasnost. Bez te saglasnosti, integracija se ne uspostavlja niti se bilo kakav pristup nalogu ostvaruje.</p>
+  </div>
+
+  <h2>2. Uslovi korišćenja</h2>
+  <ul>
+    <li>Korisnik mora imati validan Google nalog i ovlašćenje da odobri pristup podacima koje Aplikacija koristi.</li>
+    <li>Korisnik je odgovoran za tačnost podataka koje unosi ili odobrava za obradu.</li>
+    <li>Korisnik se obavezuje da neće koristiti Aplikaciju u nezakonite svrhe niti za obradu podataka za koje nema odgovarajuća ovlašćenja.</li>
+  </ul>
+
+  <h2>3. Obim pristupa i namena</h2>
+  <p>Aplikacija pristupa isključivo onim Google resursima (dokumenti, fajlovi, kalendar, email) koji su neophodni za funkcionisanje dogovorenog automatizovanog procesa, i to samo u obimu koji je korisnik odobrio prilikom davanja saglasnosti.</p>
+
+  <h2>4. Ograničenje odgovornosti</h2>
+  <p>Aplikacija se pruža "kakva jeste", bez garancija neprekidnog rada. Pružalac usluge ne odgovara za štetu nastalu usled prekida rada Google servisa, pogrešno unetih podataka od strane korisnika, ili korišćenja Aplikacije suprotno njenoj nameni. Pružalac usluge ulaže razumne napore da obezbedi stabilnost i bezbednost automatizacije.</p>
+
+  <h2>5. Prekid usluge i opoziv pristupa</h2>
+  <p>Korisnik može u svakom trenutku opozvati pristup Aplikacije svom Google nalogu putem Google podešavanja naloga, čime se automatski obustavlja svaka dalja automatizacija vezana za taj nalog. Pružalac usluge zadržava pravo obustave usluge u slučaju zloupotrebe ili kršenja ovih uslova.</p>
+
+  <h2>6. Izmene uslova</h2>
+  <p>Zadržavamo pravo izmene ovih Uslova korišćenja. Nastavak korišćenja Aplikacije nakon objavljivanja izmena smatra se prihvatanjem novih uslova.</p>
+
+  <h2>7. Merodavno pravo</h2>
+  <p>Na ove uslove primenjuje se pravo Republike Srbije.</p>
+
+  <h2>8. Kontakt</h2>
+  <p>Za sva pitanja u vezi sa ovim uslovima, obratite se na: <span class="placeholder">[KONTAKT EMAIL]</span></p>
+</div>
+</body>
+</html>
