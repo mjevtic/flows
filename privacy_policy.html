@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politika privatnosti</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #2563eb;
+    --border: #e5e5e5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.25rem;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.2rem; }
+  .highlight {
+    background: #eff6ff;
+    border-left: 3px solid var(--accent);
+    padding: 0.9rem 1.1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  a { color: var(--accent); }
+  .placeholder {
+    background: #fff3cd;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Politika privatnosti</h1>
+  <div class="updated">Poslednje ažurirano: <span class="placeholder">[DATUM]</span></div>
+
+  <p>Ova politika privatnosti opisuje kako <span class="placeholder">[NAZIV APLIKACIJE / USLUGE]</span> ("Aplikacija"), koju razvija i održava <span class="placeholder">[IME / NAZIV PRUŽAOCA USLUGE]</span> ("mi", "nas"), pristupa, koristi i štiti podatke prilikom povezivanja sa Google nalozima putem Google API-ja (uključujući, ali ne ograničavajući se na Google Sheets, Google Drive, Google Calendar i Gmail).</p>
+
+  <div class="highlight">
+    <strong>Uslov pristupa:</strong> Pristup Google nalogu klijenta i instalacija/povezivanje ove Aplikacije sa nalogom klijenta vrši se isključivo nakon što klijent da izričitu saglasnost za tu integraciju. Nijedan nalog se ne povezuje niti automatizuje bez prethodnog odobrenja vlasnika naloga.
+  </div>
+
+  <h2>1. Koje podatke pristupamo</h2>
+  <p>Aplikacija pristupa isključivo onim podacima za koje korisnik eksplicitno odobri pristup putem Google OAuth ekrana za saglasnost, u obimu koji je potreban za funkcionisanje konkretnog automatizovanog procesa (npr. čitanje/upis redova u određenom Google Sheets dokumentu, pristup fajlovima u Google Drive folderu, kreiranje događaja u Google Calendar-u, slanje/čitanje email poruka putem Gmail-a).</p>
+
+  <h2>2. Kako koristimo podatke</h2>
+  <ul>
+    <li>Podaci se koriste isključivo za izvršavanje automatizovanog poslovnog procesa (workflow-a) koji je dogovoren sa klijentom.</li>
+    <li>Podaci se ne koriste u marketinške svrhe, ne analiziraju se van konteksta dogovorenog procesa i ne prosleđuju se trećim stranama.</li>
+    <li>Ne prodajemo, ne iznajmljujemo niti na bilo koji način komercijalno delimo podatke pribavljene putem Google API-ja.</li>
+  </ul>
+
+  <h2>3. Čuvanje i bezbednost podataka</h2>
+  <p>Pristupni tokeni (OAuth credentials) čuvaju se na infrastrukturi pod kontrolom pružaoca usluge, uz standardne mere zaštite (enkripcija u prenosu, ograničen pristup serverima). Podaci se ne skladište duže nego što je neophodno za funkcionisanje automatizacije, osim ako je drugačije eksplicitno dogovoreno sa klijentom.</p>
+
+  <h2>4. Deljenje podataka sa trećim stranama</h2>
+  <p>Ne delimo podatke pribavljene putem Google API-ja sa trećim stranama, osim kada je to izričito potrebno za funkcionisanje dogovorenog workflow-a (npr. prosleđivanje unutar alata koje sam klijent koristi) i uz prethodno znanje klijenta.</p>
+
+  <h2>5. Opoziv pristupa</h2>
+  <p>Klijent u svakom trenutku može opozvati pristup Aplikacije svom Google nalogu putem stranice <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account – Bezbednost – Aplikacije trećih strana</a>. Nakon opoziva, Aplikacija gubi svaki dalji pristup nalogu.</p>
+
+  <h2>6. Prava korisnika</h2>
+  <p>Klijent ima pravo da u svakom trenutku zatraži uvid u to koji su podaci pristupani, da zatraži prekid obrade i brisanje lokalno sačuvanih podataka (tokena), obraćanjem na kontakt naveden ispod.</p>
+
+  <h2>7. Izmene ove politike</h2>
+  <p>Zadržavamo pravo izmene ove politike privatnosti. O svakoj značajnijoj izmeni klijenti koji koriste Aplikaciju biće obavešteni.</p>
+
+  <h2>8. Kontakt</h2>
+  <p>Za sva pitanja u vezi sa ovom politikom privatnosti, obratite se na: <span class="placeholder">[KONTAKT EMAIL]</span></p>
+</div>
+</body>
+</html>
